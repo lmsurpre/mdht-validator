@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="mdhtruntime/mdht/org.eclipse.mdht.emf.runtime-3.0.0.201709200502.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/mdht/org.eclipse.mdht.uml.cda-3.0.0.201709200502.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/mdht/org.eclipse.mdht.uml.hl7.datatypes-3.0.0.201709200502.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/mdht/org.eclipse.mdht.uml.hl7.rim-3.0.0.201709200502.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/mdht/org.eclipse.mdht.uml.hl7.vocab-3.0.0.201709200502.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/mdht/org.hl7.cbcc.privacy.consentdirective_1.0.0.20170920.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/mdht/org.hl7.security.ds4p.contentprofile_3.0.0.20170920.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/mdht/org.openhealthtools.mdht.uml.cda.consol2-3.0.2.20170920.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/mdht/org.openhealthtools.mdht.uml.cda.mu2consol-3.0.2.20170920.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/non-mdht/lpg.runtime.java-2.0.17.v201004271640.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/non-mdht/org.eclipse.emf.common-2.12.0.v20160420-0247.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/non-mdht/org.eclipse.emf.ecore-2.12.0.v20160420-0247.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/non-mdht/org.eclipse.emf.ecore.xmi-2.12.0.v20160420-0247.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/non-mdht/org.eclipse.ocl-3.6.0.v20160523-1914.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/non-mdht/org.eclipse.ocl.common-1.4.0.v20160521-2033.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/non-mdht/org.eclipse.ocl.ecore-3.6.0.v20160523-1914.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/non-mdht/org.eclipse.uml2.common-2.1.0.v20170227-0935.jar"/>
+	<classpathentry kind="lib" path="mdhtruntime/non-mdht/org.eclipse.uml2.types-2.0.0.v20170227-0935.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
