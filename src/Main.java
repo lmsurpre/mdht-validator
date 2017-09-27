@@ -8,7 +8,6 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 
 import org.eclipse.emf.common.util.Diagnostic;
-import org.eclipse.mdht.uml.cda.ClinicalDocument;
 import org.eclipse.mdht.uml.cda.util.BasicValidationHandler;
 import org.eclipse.mdht.uml.cda.util.CDAUtil;
 
@@ -27,10 +26,8 @@ public class Main {
                 if (file.getFileName().toString().endsWith(".xml")) {
                     System.out.println(file + ": ");
                     FileInputStream inputStream = new FileInputStream(file.toFile());
-                    ClinicalDocument clinicalDocument;
                     try {
-                        clinicalDocument = CDAUtil.load(inputStream);
-                        CDAUtil.validate(clinicalDocument, new BasicValidationHandler() {
+                        CDAUtil.load(inputStream, new BasicValidationHandler() {
                             public void handleError(Diagnostic diagnostic) {
                                 System.out.println("ERROR: " + diagnostic.getMessage());
                             }
